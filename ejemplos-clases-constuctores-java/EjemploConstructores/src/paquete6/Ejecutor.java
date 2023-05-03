@@ -10,6 +10,7 @@ public class Ejecutor {
         // Se crea un objeto haciendo referencia al constructor sin 
         // argumentos
         FacturaTelefonica fac = new FacturaTelefonica();
+        fac.calcularValorFactura();
         System.out.println("Objeto sin argumentos\n");
         System.out.printf("Número telefónico: %s\n"
                 + "Minutos mes: %.2f\nValor minuto: %.2f\n"
@@ -26,6 +27,7 @@ public class Ejecutor {
         
         FacturaTelefonica fac2 = new FacturaTelefonica(numero, minutos, 
                 valorMinutos);
+        fac2.calcularValorFactura();
         System.out.println("\nObjeto con argumentos\n");
         System.out.printf("Número telefónico: %s\n"
                 + "Minutos mes: %.2f\nValor minuto: %.2f\n"

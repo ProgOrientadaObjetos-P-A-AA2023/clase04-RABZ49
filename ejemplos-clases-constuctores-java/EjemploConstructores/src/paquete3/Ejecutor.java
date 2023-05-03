@@ -6,10 +6,13 @@
 package paquete3;
 
 public class Ejecutor {
+
     public static void main(String[] args) {
         // Se crea un objeto
         // haciendo referencia al constructor por defecto
         FacturaTelefonica fac = new FacturaTelefonica();
+        //se procede a llamar al metodo calcular factura para obtener el resultado
+        fac.calcularValorFactura();
         System.out.printf("Número telefónico: %s\n"
                 + "Minutos mes: %.2f\nValor minuto: %.2f\n"
                 + "Valor factura: %.2f\n", fac.obtenerNumeroTelefono(),
