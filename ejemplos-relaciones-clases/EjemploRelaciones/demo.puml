@@ -1,0 +1,8 @@
+@startuml
+class paquetedos.Autor
+class paquetedos.Ejecutor
+class paquetedos.Publicacion
+class paqueteuno.Computadora
+class paqueteuno.Ejecutor
+class paqueteuno.UnidadDVD
+@enduml
