@@ -17,7 +17,7 @@ public class Ejecutor {
         Ciudad ciudad2 = new Ciudad("Zamora");
         
         Barrio barrio1 = new Barrio("San Sebastián", ciudad1);
-        Barrio barrio2 = new Barrio("Sucre", ciudad1);
+        Barrio barrio2 = new Barrio("Sucre", ciudad2);
         
         Persona persona1 = new Persona("René Elizalde", "1100909909", barrio1);
         
