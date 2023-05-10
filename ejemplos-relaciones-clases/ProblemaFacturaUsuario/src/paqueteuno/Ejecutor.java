@@ -13,7 +13,7 @@ public class Ejecutor {
     public static void main(String[] args) {
         // Crear el objeto Usuario
         Usuario usuario = new Usuario();
-        
+        System.out.println(usuario.obtenerApellido());
         usuario.establecerNombre("María");
         usuario.establecerApellido("Paute");
         usuario.establecerIdentificacion("111122223");
@@ -23,8 +23,8 @@ public class Ejecutor {
                 0.5, usuario);
         
         factura.calcularValorFactura();
-        
-        System.out.printf("Factura de Teléfono\n" +
+        System.out.printf("%s\n",factura);
+        /*System.out.printf("Factura de Teléfono\n" +
                 "Nombre: %s\n" +
                 "Apellido: %s\n" +
                 "Identificación: %s\n" +
@@ -39,5 +39,6 @@ public class Ejecutor {
                 factura.obtenerMinutosMes(),
                 factura.obtenerValorMinuto(),
                 factura.obtenerValorFactura());
+        */
     }
 }
